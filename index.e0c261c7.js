@@ -1,0 +1,2 @@
+document.addEventListener("DOMContentLoaded",function(){var t=function(t){return t.toLocaleString("en-US")},e=document.querySelectorAll("span.population"),n=0,o=[];e.forEach(function(t){var e=parseInt(t.textContent.replace(/,/g,""),10);isNaN(e)||(o.push(e),n+=e)});var a=Math.round(n/o.length),r=document.querySelector("span.average-population"),u=document.querySelector("span.total-population");r.textContent=t(a),u.textContent=t(n)});
+//# sourceMappingURL=index.e0c261c7.js.map
